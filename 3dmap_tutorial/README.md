@@ -50,7 +50,7 @@ Sionna 3D地圖使用教學
 5. 設定完地圖後點選 File -> Export -> Mitsuba -> Mitsuba Export，之後就可以匯出Mitsuba格式的檔案了
 (note: setting的部分也可以根據需求調整，尤其是xyz座標的方向)
 ![alt text](fig/img12.png)
-6. 看見資料夾裡面有`<檔名>.xml`和`meshes/`就代表輸出完成了(`meshes/`裡面會有各物件的ply檔)，之後使用的時候需要讓xml檔和meshes資料夾在同一個路徑中，路徑如下：
+6. 看見資料夾裡面有<檔名>.xml和meshes就代表輸出完成了(meshes裡面會有各物件的ply檔)，之後使用的時候需要讓xml檔和meshes資料夾在同一個路徑中，路徑如下：
 
     folder  
     ├── <檔名>.xml  
