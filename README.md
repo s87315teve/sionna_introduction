@@ -150,6 +150,7 @@ source ~/.bashrc
 
 * (Optional)處理WSL中Mitsuba的GPU加速問題，參考[Mitsuba on WSL2](https://mitsuba.readthedocs.io/en/stable/src/optix_setup.html)
 
+* 3D地圖建置教學可以參考 [3D map tutorial](3dmap_tutorial/README.md)
 
 
 ## References
