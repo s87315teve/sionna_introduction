@@ -46,9 +46,9 @@ Sionna 3D地圖使用教學
     ![alt text](fig/img10.png)
 3. 導入地圖後就可以看到像是下圖的樣子
     ![alt text](fig/img11.png)
-4. 可以在這邊設定一些物件的屬性，包含顏色和物件名稱之類的，之後在Sionna裡面可以用到，不設定用預設的也行(note: 如果希望渲染出來的建築物是有顏色的話，要記得放一個太陽的物件到Blender裡，不然都會是黑色的)
+4. 可以在這邊設定一些物件的屬性，包含顏色和物件名稱之類的，之後在Sionna裡面可以用到，因為OpenStreetMap的物件可能不包含地面資訊，所以需要自己生成地面物件，像是用在圖上追加一個`Plane`物件之類的  (note: 如果希望渲染出來的建築物是有顏色的話，要記得放一個太陽的物件到Blender裡，不然都會是黑色的)
 5. 設定完地圖後點選 File -> Export -> Mitsuba -> Mitsuba Export，之後就可以匯出Mitsuba格式的檔案了
-(note: setting的部分也可以根據需求調整，尤其是xyz座標的方向)
+  (note: setting的部分也可以根據需求調整，尤其是xyz座標的方向)
 ![alt text](fig/img12.png)
 6. 看見資料夾裡面有<檔名>.xml和meshes就代表輸出完成了(meshes裡面會有各物件的ply檔)，之後使用的時候需要讓xml檔和meshes資料夾在同一個路徑中，路徑如下：
 
